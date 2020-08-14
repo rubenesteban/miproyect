@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="#" />  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">	
+      
+    <link rel="stylesheet" href="plugins/sweetAlert2/sweetalert2.min.css">  
+      
+    <link rel="stylesheet" href="plugins/animate.css/animate.css">  
+	<link rel="stylesheet" href="estilos.css">
+    <title>Monopoly</title>
+      
+      	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/style.css" />
+        
+  </head>
+  <body>
+  	
+<!--        <button id="btn0">alert</button>-->
+      <div class="container">
+        
+<!--        <button id="btn0">alert</button>-->
+        
+        <div class="row">
+        <div class="col-lg-3">
+            <button id="btn1" class="btn btn-danger btn-lg btn-block">Posición Roja</button>
+                
+        </div>
+
+        <div class="col-lg-3">
+            <button id="btn3" class="btn btn-warning btn-lg btn-block">Posición Amarrilla</button>
+                 
+        </div>
+
+        <div class="col-lg-3">
+            <button id="btn5" class="btn btn-outline-warning btn-lg btn-block">Casualidad</button>
+                
+        </div>
+
+        <div class="col-lg-3">
+            <button id="btn7" class="btn btn-info btn-lg btn-block">Arca Comunal</button>
+                
+        </div>
+        </div>
+        <div id="panelContenedor">
+  
+		<div id="marcador">
+			<h3 id="colorJugador">Juegas con...</h3>
+			<h3>Asi va el tanteo</h3>
+			<input type="text" id="marcadorRojo" value="0">
+			<input type="text" id="marcadorAmarillo" value="0">
+			<p>*Click en el cubilete para lanzar</p>
+		</div>
+		<div id="panelInicio" class= "visible panel" >
+			<h3 id="mensaje">Elige ficha y juega</h3>
+			<input type="button" value="" id="elegirRojo" onclick="jugar();seleccionarFicha('rojo')">
+			<input type="button" value="" id="elegirAmarillo" onclick="jugar();seleccionarFicha('amarillo')">
+		</div>
+		<div id="panelSorteo" class="oculto panel">
+			<h3 id="mensaje">Click en el dado para sortear el turno</h3>
+			<div id="dadoSorteo" class="dado" onclick="sorteoInicial()" onmouseover="sobre()"></div>
+		</div>
+		<div id="panelJuego" class="oculto panel">
+			<h3 id="mensaje">Turno para...</h3>
+			<div id="dadoEnJuego" class="dado" onclick="tirada()" onmouseover="sobre()"></div>
+			<h3 id="alerta">Lo siento culpa mía, tendrás que recargar la página de nuevo</h3>
+		</div>
+		<div id="panelFinal" class="oculto panel">
+			<h2 id="mensaje">Ganador...</h2>
+			<div id="dadoGanador" class="dado"></div>
+			<input type="button" id="jugarDeNuevo" value="Nueva Partida" onclick="jugar()" >
+		</div>
+       
+    
+    </div>
+      <canvas id="tablero" ></canvas>      
+  </div>
+
+    <script src="jquery/jquery-3.3.1.min.js"></script>	 	
+    <script src="popper/popper.min.js"></script>	 	 	
+    <script src="bootstrap4/js/bootstrap.min.js"></script>
+	  
+    <!--    Plugin sweet Alert 2  -->
+	<script src="plugins/sweetAlert2/sweetalert2.all.min.js"></script>
+      
+   
+      	<!-- Archivos y script javascript -->
+	<script src="js/main.js"></script>
+	<script>
+        
+		iniciar();
+		
+	</script>
+      
+	
+  </body>
+</html>
