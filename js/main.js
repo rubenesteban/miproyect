@@ -204,16 +204,16 @@ function moverFichasEspecial(){
 function conetiqueta(){
     var e = 0;
 	if(turnoRoja === true & victoriasRojo > 0 ){
-		e === 1;
+		e = 1;
 	}
     
 	else if(turnoAmarilla === true & victoriasAmarillo > 0){
-		e === 1;
+		e = 1;
 	}
-    return e;
+   return e;
 }
 
-/*************************************************************************************/
+/************************* ************************************************************/
 
 
 
@@ -1003,31 +1003,28 @@ var compra = function(){
 
 
 function casilla_2(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     
 	moverFichasEspecial();
-    cambiarTurno();
 	}
 	else{
     alert("Av. Mediteranio - Costo $60");
     alerta('"Avenida 2 esta vendida"');
 	moverFichasEspecial();
-    cambiarTurno();
    
 	}
     e === 0;
 }
 function casilla_3(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 3 esta vendida"');
     
 	moverFichasEspecial();
-    cambiarTurno();
 	}
 	else{
     
@@ -1038,13 +1035,12 @@ function casilla_3(){
     e === 0;
 }
 function casilla_4(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida  esta vendida"');
     //Swal.fire();
 	moverFichasEspecial();
-    cambiarTurno();
 	}
 	else{
     alert("Av. Baltico - Costo $60");
@@ -1055,13 +1051,12 @@ function casilla_4(){
     e === 0;
 }
 function casilla_5(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 5 esta vendida"');
     //Swal.fire();
 	moverFichasEspecial();
-    cambiarTurno();
 	}
 	else{
     
@@ -1072,7 +1067,7 @@ function casilla_5(){
     e === 0;
 }
 function casilla_6(){
-    conetiqueta();
+   let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 6 esta vendida"');
@@ -1089,13 +1084,12 @@ function casilla_6(){
     e === 0;
 }
 function casilla_7(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     //Swal.fire();
 	moverFichasEspecial();
-    cambiarTurno();
 	}
 	else{
     
@@ -1106,193 +1100,168 @@ function casilla_7(){
     e === 0;
 }
 function casilla_8(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
 	moverFichasEspecial();
-    cambiarTurno();
 	}
 	else{
     alert("Casualidad");
     
 	moverFichasEspecial();
-    cambiarTurno();
 	}
     e === 0;
 }
 function casilla_9(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if( e === 0){
     alerta('"Avenida 2 esta vendida"');
 	moverFichasEspecial();
-    cambiarTurno();
 	}
 	else{
     alert("Av. Vermont- Costo $100");
 	moverFichasEspecial();
-    cambiarTurno();
 	}
     e === 0;
 }
 function casilla_10(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Connecticut - Costo $120");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_11(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("En la carcel de visita no mas");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_12(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Charles - Costo $140");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_13(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Empresa Electrica - Costo $150");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_14(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Unidos - Costo $140");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_15(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Virginia - Costo $160");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_16(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Ferrocarril de  Pennsylvania - Costo $200");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_17(){
-    conetiqueta();
+    let e = conetiqueta();
    movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("St James Place - Costo $180");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_18(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Arca comunal");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_19(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Tennessee - Costo $180");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_20(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. New York - Costo $200");
@@ -1301,155 +1270,136 @@ function casilla_20(){
     e === 0;
 }
 function casilla_21(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Estacionamiento Gratis");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_22(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     
     alert("Av. Kentucky - Costo $220");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_23(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Casualidad");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_24(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Indiana - Costo $220");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_25(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Illinois - Costo $240");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_26(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Ferrocarril B & O - Costo $200");
     moverFichasEspecial();
-    cambiarTurno();
-    }
+    }conetiqueta();
     e === 0;
 }
 function casilla_27(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Atlantic - Costo $260");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_28(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
+    
     }
     else{
     alert("Av. Vermont - Costo $60");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_29(){
-    conetiqueta();
+    let e = conetiqueta();
     mmovimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
    
     else{
     alert("Water Works - Costo $150");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_30(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Marvin Garden - Costo $280");
     
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
@@ -1469,152 +1419,132 @@ function casilla_31(){
 
 
 function casilla_32(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Pacific - Costo $300");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_33(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Carolina del Norte - Costo $300");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_34(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Arca Comunal");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_35(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Pennsylvania - Costo $320");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_36(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Ferrocarril de Liverpool");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_37(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Casualidad");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_38(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Av. Park Lane - Costo $350");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_39(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Impuesto de Lujo - Costo $100");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_40(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Boardwalk");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
 function casilla_41(){
-    conetiqueta();
+    let e = conetiqueta();
     movimiento = 0;
     if(e === 0){
     alerta('"Avenida 2 esta vendida"');
     moverFichasEspecial();
-    cambiarTurno();
     }
     else{
     alert("Si pasa por Go cobre - $200");
     moverFichasEspecial();
-    cambiarTurno();
     }
     e === 0;
 }
